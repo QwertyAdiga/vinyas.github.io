@@ -1,0 +1,83 @@
+    .try {
+        background-color: white;
+        color: black;
+        height: 65px;
+        width: 100px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: bold;
+        border-width: 7px;
+    }
+
+    .try:hover {/* It is suedo shell. for various functions like what happens after clicking or hovering. Opacity makes bg dimmer. 0 vanishes and 1 normal*/
+        background-color: red;
+        color: green;
+        /* opacity: 0.7; */
+        box-shadow: 5px 5px 15px black; /*5px = right px, 5px = down px, 10px = blurness, next shadow color*/
+        padding-right: 20px;
+        transition: width 7s;
+    }
+
+    .try:active {
+        /* height: 200px; */
+        width: 700;
+    }
+
+    .para {
+        font-size: 25px;
+        font-family: monospace;
+        font-style: oblique;
+        width: 500px;
+        /* text-align: center; */
+        margin: 0 auto;/* text-align centers the text. This centers the box*/
+        line-height: 35px;/*Increases height between two lines*/
+    }
+
+    .text {
+        color: brown;
+    }
+
+    .image{
+        width: 200px;
+        border-radius: 60px;
+    }
+
+    .inputbox {
+        margin-left: 20px;
+        color: chocolate;
+    }
+
+     .example{
+         display: inline-block;
+         font-family: Courier;
+         color: dimgray;
+    } 
+
+    .youtube-heading{
+        color: darkred;
+    }
+
+    .youtube-photo{
+        width: 400px;
+        margin-bottom: 12px;
+        border-radius: 7px;
+    }
+
+    .profile-photo{
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        vertical-align: top;
+        border-radius: 50%;
+    }
+
+    .text-underphoto{
+        display: inline-block;
+        width: 300px;
+        }
+
+    .video-title{
+        margin-top: 0;
+    }
